@@ -1,19 +1,20 @@
-*
-{
-    color: #000066;
-}
 
-a:link {
-    color: #3333CC;
+a{
+    color:#6666FF;
 }
 
 a:hover {
-    color: #6B24B2;
-    text-decoration: none
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    color: #e74c3c;
+    text-decoration: none;
 }
 
 a:visited {
-    color:#6666FF;
+    
 }
 
 html,body{ 
